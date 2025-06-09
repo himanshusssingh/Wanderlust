@@ -55,7 +55,7 @@ app.use(methodOverride("_method"));
 
 // For Checking
 app.get("/", (_req, res) => {
-    res.send(`Check!`)
+    res.send(`This page is under developing mode! Please Routing to this page: https://h-wanderlust.onrender.com/listing`)
 })
 
 const store = MongoStore.create({

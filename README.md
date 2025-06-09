@@ -1,9 +1,9 @@
-🧳 Wanderlust - MERN Stack Travel Booking App
+#🧳 Wanderlust - MERN Stack Travel Booking App
 
 Wanderlust is a full-stack travel booking application built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to explore and book hotels and tourist places with ease, providing a smooth and secure travel planning experience.
 
 
-🚀 Features:
+##🚀 Features:
 Search for hotels or tourist destinations by location or country.
 
 View Listings with detailed descriptions, images, and ratings.
@@ -21,27 +21,7 @@ Responsive and interactive frontend using EJS templating.
 MongoDB Atlas cloud-hosted database integration.
 
 
-📁 Project Structure:
-
-Wanderlust/
-├── routes/
-│ ├── user.js
-│ ├── review.js
-│ └── listing.js
-├── models/
-│ ├── user.js
-│ └── review.js
-├── views/
-│ ├── includes/
-│ ├── layouts/
-│ └── users/
-├── utils/
-├── .env
-├── app.js
-└── package.json
-
-
-⚙️ Tech Stack:
+##⚙️ Tech Stack:
 
 Frontend: HTML, CSS, EJS, Bootstrap
 
@@ -56,41 +36,40 @@ Templating Engine: EJS + EJS-Mate
 Session Store: connect-mongo
 
 
-🛠️ Installation
+##🛠️ Installation
 
 Clone the repository:
-git clone https://github.com/your-username/majors-travel-app.git
-cd majors-travel-app
+git clone https://github.com/himanshusssingh/Wanderlust.git
 
 
-Install dependencies:
+
+##Install dependencies:
 npm install
 
-Create a .env file and add your environment variables:
+##Create a .env file and add your environment variables:
 ATLASDB_URL=your_mongodb_connection_string
 NODE_ENV=development
 
-Run the app:
+##Run the app:
 nodemon app.js
 
-Visit:
-http://localhost:8080
+##Visit:
+http://localhost:8080/listing
 
 
-📷 Screenshots
+##📷 Screenshots
 
 Coming soon...
 
 
-🧑‍💻 Author
+##🧑‍💻 Author
 
-Himanshu Singh
-Gorakhpur, Uttar Pradesh
+Himanshu Singh |
+Gorakhpur, Uttar Pradesh |
 BCA Student | MERN Stack Developer
-YouTube Vlogger | Tech Enthusiast
 
 
-📬 Feedback
+##📬 Feedback
 
 Have any suggestions or feedback? Feel free to open an issue or connect with me!
-
+###Linkdin: https://www.linkedin.com/in/himanshu-singh-325438291/

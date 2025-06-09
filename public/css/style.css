@@ -21,6 +21,7 @@ body{
     color: #222222;
 }
 
+
 /* Footer */
 .f-info-links a{
     text-decoration: none;
@@ -38,9 +39,11 @@ body{
     justify-content: center;
 }
 
-.f-info-socials i{
+.f-info-socials a {
     font-size: 1.2rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: black;
 }
 
 .f-info {
@@ -52,6 +55,7 @@ body{
     justify-content: center;
     align-items: space-evenly;
 }
+
 
 @media (max-width: 768px) {
   .navbar-collapse {
@@ -71,8 +75,6 @@ body{
     background-color: #fbfdfe; /* Light hover effect */
   }
 }
-
-
 
 /* Listing */
 .container{
