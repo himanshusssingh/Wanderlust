@@ -53,10 +53,10 @@ const methodOverride = require("method-override");
 const user = require("./models/user.js");
 app.use(methodOverride("_method"));
 
-//For Checking
-// app.get("/", (_req, res) => {
-//     res.send(`Check!`)
-// })
+// For Checking
+app.get("/", (_req, res) => {
+    res.send(`Check!`)
+})
 
 const store = MongoStore.create({
     mongoUrl: dburl,
